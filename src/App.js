@@ -1,28 +1,24 @@
-import './App.css';
+import Header from "./components/Header";
+import Intro from "./components/Intro";
+import Work from "./components/Work";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Cta from "./components/Cta";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
-    </div>
+    <main className=" min-h-screen bg-neutral overflow-x-hidden ">
+      <div className=" w-[90%] m-auto max-w-[1111px] relative  ">
+        <Header />
+        <Intro />
+        <Work />
+        <About />
+        <Portfolio />
+        <Cta />
+        <Footer />
+      </div>
+    </main>
   );
 }
 
