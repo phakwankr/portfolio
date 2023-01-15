@@ -1,8 +1,8 @@
-import { Button } from "./shared/Button";
+import { Button } from "./shared/Contactinf";
 import { InView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
-const Cta = () => {
+const Contact = () => {
   return (
     <InView threshold={0.25}>
       {({ ref, inView }) => (
@@ -15,7 +15,7 @@ const Cta = () => {
         >
           <div className=" flex flex-col justify-center items-center gap-6 lg:items-start ">
             <h4 className=" text-2xl font-medium text-white ">
-              Book a call with me
+              Get In Touch
             </h4>
             <p className="lg:text-left lg:max-w-[70%]">
               I’d love to have a chat to see how I can help you. The best first
@@ -29,4 +29,4 @@ const Cta = () => {
     </InView>
   );
 };
-export default Cta;
+export default Contact;

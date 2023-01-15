@@ -35,12 +35,7 @@ const Work = () => {
       initial="hidden"
       animate="visible"
     >
-      <Cards
-        text="Graphic Design"
-        graphic={graphicDesign}
-        layout="row-span-3 gap-16 col-span-2 bg-primary md:row-span-2 lg:row-span-2 lg:col-span-1 lg:"
-        item={item}
-      />
+
       <Cards
         text="UI/UX"
         graphic={uiUxDesign}
@@ -54,9 +49,9 @@ const Work = () => {
         item={item}
       />
       <Cards
-        text="Illustrations"
-        graphic={illustrationsDesign}
-        layout="col-span-2 bg-secondary gap-10"
+        text="UI/UX"
+        graphic={uiUxDesign}
+        layout=" gap-7  bg-accent  "
         item={item}
       />
       <Cards
@@ -65,12 +60,7 @@ const Work = () => {
         layout="col-span-2 bg-[#61C4B7] gap-10 lg:col-start-4 lg:row-start-1"
         item={item}
       />
-      <Cards
-        text="Motion Graphics"
-        graphic={motionDesign}
-        layout="col-span-2 bg-[#552049] gap-10"
-        item={item}
-      />
+
     </motion.div>
   );
 };

@@ -1,5 +1,5 @@
-import { Button } from "./shared/Button";
-import profilePic from "../assets/image-amy.webp";
+import { Button } from "./shared/Resume";
+import profilePic from "../assets/profile-pic.webp";
 import { InView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 

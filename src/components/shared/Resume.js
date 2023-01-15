@@ -4,7 +4,7 @@ export const Button = ({ bgColor }) => {
       className={`${bgColor} btn border-none  text-neutral rounded-full text-xs 
       px-6 hover:bg-primary hover:border-none transition-all ease-in delay-[50] lg:px-10`}
     >
-      Free Consultation
+      See My Resume
     </button>
   );
 };
