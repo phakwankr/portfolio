@@ -1,19 +1,19 @@
 import './styles.css';
 import Header from "./components/Header";
-import Intro from "./components/Intro";
+import Introduction from "./components/Introduction";
 import About from "./components/About";
-import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Port from "./components/Port";
 
 function App() {
   return (
         <main className="bg-image">
             <div className="w-[90%] m-auto max-w-[1111px] relative">
                 <Header />
-                <Intro />
+                <Introduction />
                 <About />
-                <Skills />
+                <Port />
                 <Contact />
                 <Footer />
             </div>

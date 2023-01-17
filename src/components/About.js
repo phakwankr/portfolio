@@ -21,7 +21,7 @@ const About = () => {
           />
           <div className=" flex flex-col items-center justify-center gap-6 md:items-start  ">
             <h3 className=" text-2xl font-semibold text-base-100 md:text-left md:w-full md:text-4xl ">
-              I’m Amy, and I’d love to work on your next project
+              Welcome, and I’d love to work on your next project
             </h3>
             <p className=" text-neutral-content leading-7 md:text-left ">
               I love working with others to create beautiful design solutions.

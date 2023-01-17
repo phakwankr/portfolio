@@ -13,3 +13,32 @@
     width: 80px;
     height: 80px;
 }
+
+/* Add this to your global CSS file */
+.glassmorphism-hidden {
+  /* Hide the element by default */
+  display: none;
+}
+
+/* Add this class to the element you want to have the glassmorphism effect */
+.glassmorphism-visible {
+  /* Show the element */
+  display: block;
+  
+  /* Add a background color or image */
+  background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+  background-size: cover;
+  
+  /* Add a box shadow */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  
+  /* Add a border radius */
+  border-radius: 20px;
+}
+.glassmorphism-visible {
+  /* styles for visible glassmorphism effect */
+}
+
+.glassmorphism-hidden {
+  /* styles for hidden glassmorphism effect */
+}
