@@ -5,6 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Port from "./components/Port";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
                 <Header />
                 <Introduction />
                 <About />
+                <Skills />
                 <Port />
                 <Contact />
                 <Footer />
