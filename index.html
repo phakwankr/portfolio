@@ -28,10 +28,9 @@
 <body data-spy="scroll" data-target="#navbar">
     <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 w-100 py-5 line-bg">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <span class="highlighted">Pha</span>kwan<span class="highlighted">Krue</span>rattanakul<span
-                    class="highlighted">/</span> 
-            </a>
+            <a class="navbar-brand" href="#home">
+                <img src="./img/logo.png" alt="logo">
+              </a>              
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list"></i>
@@ -39,9 +38,9 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-item nav-link active px-4" href="#home">Home</a>
-                    <a class="nav-item nav-link px-4" href="#portfolio">Portfolio</a>
-                    <a class="nav-item nav-link px-4" href="#expertize">Experiences</a>
                     <a class="nav-item nav-link px-4" href="#about">About</a>
+                    <a class="nav-item nav-link px-4" href="#expertize">Experiences</a>
+                    <a class="nav-item nav-link px-4" href="#portfolio">Portfolio</a>
                     <a class="nav-item nav-link px-4" href="#contact">Contact</a>
                 </div>
             </div>
@@ -51,14 +50,110 @@
         <div class="hero-img">
             <div class="hero-shadow"></div>
             <div class="hero-text">
-                <h1>
-                    <span class="highlighted">Create</span> Unique <br>
-                    Solutions & Digital Works
-                </h1>
+
             </div>
         </div>
     </header>
     <main>
+        <section id="about">
+            <div class="about">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-8">
+                            <h1>
+                                Hi There! <br> I'm Phakwan Kruerattanakul
+                            </h1>
+                            <p>As a highly motivated individual with a background in occupational therapy and experience as a search engine evaluator, 
+                                I have developed strong attention to detail and problem-solving skills. 
+                                My passion for technology stems from a desire to continuously learn and improve, and I am eager to bring my unique skill set to the tech industry. 
+                                I am confident that my experience in both healthcare and technology will allow me to excel in a QA role, where I can use my expertise to create high-quality, user-centered software.
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <img class="img-fluid" src="img/me.jpg" alt="profile picture">
+                        </div>
+                        <div class="underline-dark"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section id="expertize">
+            <div class="expertize">
+                <div class="container">
+                    <div class="row item" data-text="web-design">
+                        <div class="col-12 col-sm-4">
+                            <h1>Generation Thailand</h1>
+                        </div>
+                        <div class="col-8 col-sm-6">
+                            <p>
+                                The first stepping stone and beginning of my tech journey
+                                <span class="dots">...</span>
+                                <span class="more" style="display: none;">
+                                   The first stepping stone and beginning of my tech journey. I learnt
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-3 col-sm-2 text-center">
+                            <button class="plus" onclick="readMore('web-design')"><i class="bi bi-plus-lg"></i></button>
+                        </div>
+                    </div>
+                    <div class="underline-light"></div>
+                    <div class="row item" data-text="brand">
+                        <div class="col-12 col-sm-4">
+                            <h1>Seacrh Engine Evaluator</h1>
+                        </div>
+                        <div class="col-8 col-sm-6">
+                            <p>
+                                My first job related to technology
+                                <span class="dots">...</span>
+                                <span class="more" style="display: none;">
+                                    Non quod repellendus sint distinctio temporibus
+                                    facere cum totam qui voluptatibus? Aspernatur cupiditate architecto voluptatibus
+                                    totam dolore distinctio veritatis earum tenetur at vero, error esse molestias
+                                    possimus fugit ad harum tempora? In.
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-3 col-sm-2 text-center">
+                            <button class="plus" onclick="readMore('brand')"><i class="bi bi-plus-lg"></i></button>
+                        </div>
+                    </div>
+                    <div class="underline-light"></div>
+                    <div class="row item" data-text="social-media">
+                        <div class="col-12 col-sm-4">
+                            <h1>Occupational Therapist</h1>
+                        </div>
+                        <div class="col-8 col-sm-6">
+                            <p>
+                                Where I develope Empathy, Problem Solving and ability to understand human-needs
+                                <span class="dots">...</span>
+                                <span class="more" style="display: none;">
+                                    Aspernatur cupiditate architecto voluptatibus
+                                    totam dolore distinctio veritatis earum tenetur at vero, error esse molestias
+                                    possimus fugit ad harum tempora? In.
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-3 col-sm-2 text-center">
+                            <button class="plus" onclick="readMore('social-media')"><i
+                                    class="bi bi-plus-lg"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
         <section id="portfolio">
             <div class="portfolio bg-white py-5">
                 <div class="container">
@@ -72,13 +167,10 @@
                                     <button class="btn-portfolio active" data-filter="*">All</button>
                                 </div>
                                 <div class="col">
-                                    <button class="btn-portfolio" data-filter=".c1">Web design</button>
+                                    <button class="btn-portfolio" data-filter=".c1">Test Cases</button>
                                 </div>
                                 <div class="col">
-                                    <button class="btn-portfolio" data-filter=".c2">Test Cases</button>
-                                </div>
-                                <div class="col">
-                                    <button class="btn-portfolio" data-filter=".c3">Social</button>
+                                    <button class="btn-portfolio" data-filter=".c2">Web Applications</button>
                                 </div>
                             </div>
                         </div>
@@ -354,102 +446,9 @@
             </div>
         </section>
 
-        <section id="expertize">
-            <div class="expertize">
-                <div class="container">
-                    <div class="row item" data-text="web-design">
-                        <div class="col-12 col-sm-4">
-                            <h1><span class="highlighted">We</span>b design</h1>
-                        </div>
-                        <div class="col-8 col-sm-6">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                <span class="dots">...</span>
-                                <span class="more" style="display: none;">
-                                    Non quod repellendus sint distinctio temporibus
-                                    facere cum totam qui voluptatibus? Lorem ipsum dolor sit amet consectetur
-                                    adipisicing
-                                    elit. Blanditiis aspernatur, corporis voluptates nulla accusamus debitis sequi
-                                    repellendus eum officiis quam aut, rem aliquam aliquid aperiam illum eius fugit vel?
-                                    Sunt ea laudantium, modi recusandae necessitatibus labore ab optio aspernatur
-                                    aperiam
-                                    quis odit qui itaque eligendi, deserunt consequuntur saepe voluptas, atque delectus.
-                                    Sit
-                                    repudiandae repellat dolore debitis?
-                                </span>
-                            </p>
-                        </div>
-                        <div class="col-3 col-sm-2 text-center">
-                            <button class="plus" onclick="readMore('web-design')"><i class="bi bi-plus-lg"></i></button>
-                        </div>
-                    </div>
-                    <div class="underline-light"></div>
-                    <div class="row item" data-text="brand">
-                        <div class="col-12 col-sm-4">
-                            <h1><span class="highlighted">Br</span>and</h1>
-                        </div>
-                        <div class="col-8 col-sm-6">
-                            <p>
-                                Aspernatur cupiditate architecto voluptatibus totam dolore distinctio.
-                                <span class="dots">...</span>
-                                <span class="more" style="display: none;">
-                                    Non quod repellendus sint distinctio temporibus
-                                    facere cum totam qui voluptatibus? Aspernatur cupiditate architecto voluptatibus
-                                    totam dolore distinctio veritatis earum tenetur at vero, error esse molestias
-                                    possimus fugit ad harum tempora? In.
-                                </span>
-                            </p>
-                        </div>
-                        <div class="col-3 col-sm-2 text-center">
-                            <button class="plus" onclick="readMore('brand')"><i class="bi bi-plus-lg"></i></button>
-                        </div>
-                    </div>
-                    <div class="underline-light"></div>
-                    <div class="row item" data-text="social-media">
-                        <div class="col-12 col-sm-4">
-                            <h1><span class="highlighted">So</span>cial media</h1>
-                        </div>
-                        <div class="col-8 col-sm-6">
-                            <p>
-                                Non quod repellendus sint distinctio.
-                                <span class="dots">...</span>
-                                <span class="more" style="display: none;">
-                                    Aspernatur cupiditate architecto voluptatibus
-                                    totam dolore distinctio veritatis earum tenetur at vero, error esse molestias
-                                    possimus fugit ad harum tempora? In.
-                                </span>
-                            </p>
-                        </div>
-                        <div class="col-3 col-sm-2 text-center">
-                            <button class="plus" onclick="readMore('social-media')"><i
-                                    class="bi bi-plus-lg"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section id="about">
-            <div class="about">
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-12 col-md-8">
-                            <h1>
-                                <span class="highlighted">My</span> name <br> is Phakwan
-                            </h1>
-                            <p>As a highly motivated individual with a background in occupational therapy and experience as a search engine evaluator, 
-                                I have developed strong attention to detail and problem-solving skills. 
-                                My passion for technology stems from a desire to continuously learn and improve, and I am eager to bring my unique skill set to the tech industry. 
-                                I am confident that my experience in both healthcare and technology will allow me to excel in a QA role, where I can use my expertise to create high-quality, user-centered software.
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <img class="img-fluid" src="img/me.jpg" alt="profile picture">
-                        </div>
-                        <div class="underline-dark"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+        
 
         <section id="contact">
             <div class="contact">
@@ -486,9 +485,7 @@
                     <img src="img/icons/firmbee.svg" alt="firmbee">
                 </div>
                 <div class="col-5">
-                    <span>© 2022 PHAKWAN.KR | Created by <a
-                            href="https://firmbee.com/solutions/free-invoicing-app-billing-software"
-                            title="Phakwan Kruerattanakul" target="_blank">phakwankr.com</a></span>
+                    <span>© 2022 PHAKWAN.KR</span>
                 </div>
             </div>
         </div>
