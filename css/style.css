@@ -68,7 +68,7 @@ button:hover, button:focus, button.active {
 }
 
 .shadow-bg {
-  background-color: #053C5E;
+  background-color: white;
 }
 
 .underline-dark {
@@ -104,15 +104,15 @@ nav .navbar-brand {
 }
 
 nav .nav-item {
-  color: white;
+  color: black;
 }
 
 nav .nav-item:hover, nav .nav-item:focus {
-  color: #575757;
+  color: #D3756B;
 }
 
 nav .active {
-  color: #575757;
+  color: #D3756B;
 }
 
 nav .bi-list {
@@ -129,7 +129,7 @@ header {
 
 header p {
   font-size: 5rem;
-  font-family: "Inter";
+  font-family: "Work Sans";
 }
 
 header .hero-img {
@@ -190,6 +190,25 @@ header .hero-img .hero-text .bi-arrow-down:hover {
   color: #575757;
 }
 
+
+/*
+ * About section
+ */
+ .about {
+  margin-bottom: 50px;
+}
+
+.about p {
+  margin-top: 10px;
+}
+
+#about {
+  padding-top: 250px;
+  margin-top: -200px;
+}
+
+
+
 /*
  * Gallery
  */
@@ -213,7 +232,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 }
 
 .portfolio .menu a:hover {
-  color: #00e9e6;
+  color: #D3756B;
 }
 
 .portfolio .gallery {
@@ -243,7 +262,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #00e9e6;
+  background-color: #D3756B;
   opacity: 100%;
   overflow: hidden;
   width: 100%;
@@ -296,16 +315,17 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 }
 
 /*
- * Expertize accordion
+ * Experiences
  */
 .expertize {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .expertize .item {
   padding-top: 90px;
   padding-bottom: 60px;
+  padding-left: 90px;
 }
 
 .expertize .active {
@@ -314,13 +334,13 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 }
 
 .expertize button {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 39px;
 }
 
 .expertize button:hover {
-  color: #00e9e6;
+  color: #D3756B;
 }
 
 #expertize {
@@ -328,21 +348,6 @@ header .hero-img .hero-text .bi-arrow-down:hover {
   margin-top: -160px;
 }
 
-/*
- * About section
- */
-.about {
-  margin-bottom: 90px;
-}
-
-.about p {
-  margin-top: 40px;
-}
-
-#about {
-  padding-top: 290px;
-  margin-top: -200px;
-}
 
 /*
  * Contact
@@ -432,15 +437,13 @@ footer span {
 }
 
 .col-1 img {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
 }
 
 .navbar-brand img {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */
